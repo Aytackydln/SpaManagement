@@ -1,0 +1,38 @@
+body {
+	margin: 0px;
+	font-size:18px;
+}
+main {
+	margin:1em;
+	margin-top:0px;
+}
+article {
+	clear: right;
+}
+article > header {
+	padding: 1vw;
+	color: white;
+	background-color: #cc0000;
+	text-align: center;
+}
+aside {
+	float:right;
+	width:30%;
+}
+footer {
+	background-color: black;
+	padding: 1em;
+	clear: both;
+}
+table, th, td {
+	border: 1px solid black;
+}
+th, td {
+	padding: 8px;
+}
+table tr:nth-child(even) {
+	background-color: #eee;
+}
+table tr:nth-child(odd) {
+	background-color: #fff;
+}
